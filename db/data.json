@@ -1,0 +1,54 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" },
+    { "id": 2, "name": "Jane Smith", "email": "jane@example.com" }
+  ],
+  "doctors": [
+    { "id": 1, "name": "Alvin Maxwell", "role": "Creative UI Designer", "img": "https://themewagon.github.io/medicalcenter/assets/img/gallery/team2.png" },
+    { "id": 2, "name": "Maria Smith", "role": "Agency Manager", "img": "https://themewagon.github.io/medicalcenter/assets/img/gallery/team3.png" },
+    { "id": 3, "name": "Angela Doe", "role": "Designer", "img": "https://themewagon.github.io/medicalcenter/assets/img/gallery/team1.png" }
+  ],
+"departments": [
+  {
+    "id": 1,
+    "name": "Dentistry",
+    "icon": "fa-solid fa-tooth",
+    "description": "Provides dental care including cleaning, cavity treatment, and complex oral surgeries."
+  },
+  {
+    "id": 2,
+    "name": "Cardiology",
+    "icon": "fa-solid fa-heart-pulse",
+    "description": "Specializes in the diagnosis and treatment of heart and vascular conditions, including hypertension and arrhythmias."
+  },
+  {
+    "id": 3,
+    "name": "ENT Specialists",
+    "icon": "fa-solid fa-ear-listen",
+    "description": "Focuses on diagnosing and treating disorders of the ear, nose, and throat, including infections and voice disorders."
+  },
+  {
+    "id": 4,
+    "name": "Astrology",
+    "icon": "fa-solid fa-star",
+    "description": "Offers consultations based on the movement of stars and planets to predict life events and provide horoscope analysis."
+  },
+  {
+    "id": 5,
+   " name": "Neuroanatomy",
+    "icon": "fa-solid fa-brain",
+    "description": "Studies the structure and function of the nervous system, addressing complex conditions involving nerve damage and brain disorders."
+  },
+  {
+    "id": 6,
+    "name": "Blood Screening",
+    "icon": "fa-solid fa-vial",
+    "description": "Provides blood analysis to diagnose conditions like anemia, infections, and cholesterol levels."
+  }
+],
+
+  "appointments": [
+    { "id": 1, "user_id": 1, "day": "Friday", "department_id": 1, "doctor_id": 1 },
+    { "id": 2, "user_id": 2, "day": "Sunday", "department_id": 2, "doctor_id": 2 }
+  ]
+}
