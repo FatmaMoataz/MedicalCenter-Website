@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
 export default function Department() {
   const [departments, setDepartments] = useState([]);
 
   const fetchDepartments = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/departments');
+      const response = await axios.get('https://json-server-api-production-9295.up.railway.app/departments');
       setDepartments(response.data); 
       console.log(response.data); 
     } catch (error) {
@@ -20,6 +21,10 @@ export default function Department() {
   }, []);
 
   return (
+    <>
+        <Helmet>
+      <title>Departments</title>
+    </Helmet>
     <div className='py-14 bg-white'>
       <div className='container mx-auto px-4 text-center'>
         <div className='mb-12'>
@@ -44,5 +49,6 @@ export default function Department() {
         </div>
       </div>
     </div>
+    </>
   );
 }

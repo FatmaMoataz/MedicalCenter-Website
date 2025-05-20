@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
 export default function Doctor() {
   const [doctors, setDoctors] = useState([]);
 
   const fetchDoctors = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/doctors');
+      const response = await axios.get('https://json-server-api-production-9295.up.railway.app/doctors');
       return response.data;
     } catch (error) {
       console.error('Error fetching doctors:', error);
@@ -19,6 +20,10 @@ export default function Doctor() {
   }, []);
 
   return (
+    <>
+    <Helmet>
+      <title>Doctors</title>
+    </Helmet>
     <div className="py-14 bg-gray-50">
       <div className="container mx-auto px-4 text-center">
         <div className="mb-12">
@@ -62,5 +67,6 @@ export default function Doctor() {
         </div>
       </div>
     </div>
+    </>
   );
 }

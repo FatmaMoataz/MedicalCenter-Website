@@ -1,7 +1,13 @@
 import about2 from '../../assets/images/about2.png';
+import { Helmet } from 'react-helmet';
+
 
 export default function About() {
   return (
+    <>
+    <Helmet>
+<title>About Us</title>
+    </Helmet>
     <div className="py-14 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
@@ -22,5 +28,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </>
   );
 }

@@ -5,6 +5,7 @@ import blog3 from '../../assets/images/blog3.png';
 import About from '../About/About';
 import Department from '../Department/Department';
 import Doctor from '../Doctor/Doctor';
+import { Helmet } from 'react-helmet';
 
 export default function Home() {
   const settings = {
@@ -19,6 +20,9 @@ export default function Home() {
 
   return (
     <>
+      <Helmet>
+      <title>Homepage</title>
+    </Helmet>
     <div className="mx-auto py-7">
       <h1 className='font-medium text-4xl text-center mb-5'>WE CARE ABOUT YOUR <span className='text-blue-700'>HEALTH</span></h1>
       <Slider {...settings}>
