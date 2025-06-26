@@ -1,6 +1,23 @@
-# Medical Center Website 🏥
+## 📄 Project Overview
 
-This is a responsive frontend project built during my **Frontend React Internship at Web Masters**. It simulates a medical center website where users can book appointments, view services, and interact with a public appointment list.
+This is a **responsive frontend project** built during my **Frontend React Internship at Web Masters**. It simulates a **Medical Center Website** where users can:
+
+- 📅 Book appointments using a validated form  
+- 🩺 View available medical services and departments  
+- 📋 Interact with a public list of appointments (with edit/delete functionality)
+
+The project structure was inspired by real-world healthcare websites, and the dashboard functionality was built from scratch as a **challenging task** to practice managing dynamic data.
+
+### 🔧 Key Highlights:
+
+- Modular React architecture with Vite  
+- Public-facing site (no login required)  
+- Simple **dashboard interface** for appointment management  
+- **Pagination system** to organize and browse multiple appointments  
+- **Email verification modal** before edit/delete (no full auth)
+
+This project allowed me to apply key frontend skills such as responsive layout design, form validation, state management, and API interaction using a mock backend.
+
 
 ## 📦 Tech Stack
 
@@ -21,6 +38,8 @@ This is a responsive frontend project built during my **Frontend React Internshi
 - View public list of appointments
 - Edit/Delete appointments with email verification (modal prompt)
 - Responsive and user-friendly interface
+- Clean separation of UI: Website (Header, Hero, Footer) and Dashboard (Sidebar, Appointments View)
+- Pagination system to efficiently manage long appointment lists
 
 ---
 
