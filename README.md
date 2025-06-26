@@ -1,12 +1,54 @@
-# React + Vite
+# Medical Center Website 🏥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive frontend project built during my **Frontend React Internship at Web Masters**. It simulates a medical center website where users can book appointments, view services, and interact with a public appointment list.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➡️ [Visit the Website](https://medical-center-website.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Tech Stack
+
+- **Framework**: React.js + Vite
+- **Styling**: Tailwind CSS + Flowbite React
+- **Routing**: React Router DOM
+- **Form Handling**: Formik + Yup
+- **API Integration**: Axios
+- **UI Tools**: FontAwesome, React Slick, React Toastify
+- **Backend API**: [JSON Server](https://json-server-api-production-9295.up.railway.app/) (hosted on Railway)
+
+---
+
+## ✨ Features
+
+- View medical departments & services
+- Book an appointment (validated form)
+- View public list of appointments
+- Edit/Delete appointments with email verification (modal prompt)
+- Responsive and user-friendly interface
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/FatmaMoataz/MedicalCenter-Website.git
+cd MedicalCenter-Website
+```
+### 2. Install depencendies
+
+```bash
+npm install
+```
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+This project uses a mock backend built with JSON Server.
+⚠️ Note: The API is hosted on a free Railway plan. If no data appears, it may require re-deployment.
+
