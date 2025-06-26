@@ -2,12 +2,6 @@
 
 This is a responsive frontend project built during my **Frontend React Internship at Web Masters**. It simulates a medical center website where users can book appointments, view services, and interact with a public appointment list.
 
-## 🔗 Live Demo
-
-➡️ [Visit the Website](https://medical-center-website.vercel.app/)
-
----
-
 ## 📦 Tech Stack
 
 - **Framework**: React.js + Vite
@@ -50,5 +44,7 @@ npm run dev
 ```
 
 This project uses a mock backend built with JSON Server.
+
+
 ⚠️ Note: The API is hosted on a free Railway plan. If no data appears, it may require re-deployment.
 
